@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="bg-gray-100">
+    <ScrollView>
+        <StackLayout>
+            <Header />
+            <TopNav />
+            <WalletBalance />
+            <PromoCard />
+            <ServiceGrid />
+            <RecentTransactions />
+        </StackLayout>
+    </ScrollView>
+    <BottomNav />
+</Page>
